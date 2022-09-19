@@ -1,3 +1,11 @@
+/*
+Author: Max Koltovskiy
+Course: CSCI 135
+Instructor: Michael Zamansky
+Assignment: Lab 4C
+
+Returns a cross with height of input size
+*/
 #include "functions.h"
 
 std::string cross(int size) {
