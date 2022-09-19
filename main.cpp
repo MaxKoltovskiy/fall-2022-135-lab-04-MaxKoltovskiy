@@ -18,7 +18,15 @@ int main()
     std::cout<< checkerboard(11,6);
     std::cout<< "\n------------------\n";
 
-     std::cout<< "cross(8):\n";
+    std::cout<< "cross(8):\n";
     std::cout<< cross(8);
+    std::cout<< "\n------------------\n";
+
+    std::cout<< "lower(6):\n";
+    std::cout<< lower(6);
+    std::cout<< "\n------------------\n";
+
+    std::cout<< "upper(5):\n";
+    std::cout<< upper(5);
     std::cout<< "\n------------------\n";
 }
