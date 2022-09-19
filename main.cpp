@@ -14,7 +14,7 @@ int main()
     std::cout<< box(3,5);
     std::cout<< "\n------------------\n";
 
-    std::cout<< "box(7,4):\n";
-    std::cout<< box(7,4);
+    std::cout<< "checkerboard(11,6):\n";
+    std::cout<< checkerboard(11,6);
     std::cout<< "\n------------------\n";
 }

@@ -8,3 +8,4 @@ Header file that initializes all functions in the program
 */
 #include <iostream>
 std::string box(int width, int height);
+std::string checkerboard(int width, int height);
