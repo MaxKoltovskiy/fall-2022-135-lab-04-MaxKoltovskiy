@@ -29,4 +29,12 @@ int main()
     std::cout<< "upper(5):\n";
     std::cout<< upper(5);
     std::cout<< "\n------------------\n";
+
+    std::cout<< "trapezoid(12,5):\n";
+    std::cout<< trapezoid(12,5);
+    std::cout<< "\n------------------\n";
+
+    std::cout<< "trapezoid(12,7):\n";
+    std::cout<< trapezoid(12,7);
+    std::cout<< "\n------------------\n";
 }
