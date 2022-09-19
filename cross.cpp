@@ -11,13 +11,15 @@ Returns a cross with height of input size
 std::string cross(int size) {
     std::string result;
     int space_between;
-    for(int i = 0; i<(size/2); i++) {
+    for(int i = 1; i<=(size/2); i++) {
+
         result += "\n";
-        space_between = size - (2*(i+1));
-        result += set_spaces(i) + "*" + set_spaces(space_between) + "*";
+        space_between = size - (2*i);
+        result += set_spaces(i-1) + "*" + set_spaces(space_between) + "*";
     }
 
     for(int i = (size/2); i>0; i--) {
+        
         result += "\n";
         space_between = size - 2*i;
         result += set_spaces(i-1) + "*" + set_spaces(space_between) + "*";
