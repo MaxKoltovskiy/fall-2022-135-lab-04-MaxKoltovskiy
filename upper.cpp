@@ -13,6 +13,7 @@ std::string upper(int height) {
     for(int i = height; i>= 1; i--) {
         result += "\n";
         result += set_spaces(height - i);
+        // adds spaces so the asterisks are oriented right
         for(int a = i; a> 0; a--) {
             result += "*";
 

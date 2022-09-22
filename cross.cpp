@@ -14,7 +14,10 @@ std::string cross(int size) {
     for(int i = 1; i<=(size/2); i++) {
 
         result += "\n";
-        space_between = size - (2*i);
+        space_between = size - (2*i); 
+        //2*i takes into consideration the spaces before the first asterisk 
+        //and the spaces after the second asterisk as part of the size of the row
+        //including the asterisks themselves
         result += set_spaces(i-1) + "*" + set_spaces(space_between) + "*";
     }
 

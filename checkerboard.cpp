@@ -16,9 +16,9 @@ std::string checkerboard(int width, int height) {
             row = "";
             result += "\n";
             
-            if(i%2 != 0) {
+            if(i%2 != 0) { 
                 row += " ";
-            }
+            }//when the column number is odd(starting from 0), the row starts with a space
             
             while(row.length() < width) {
                 row += "* ";

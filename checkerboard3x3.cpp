@@ -19,6 +19,8 @@ std::string checkerboard3x3(int width, int height) {
             result += "\n";
             
             if(col%6 == 0) {
+                //%6 makes it so every other 3rd column runs the code, 
+                //while %3 does the same thing but on other times
                 space_start = false;
             }
             else if(col%3 == 0) {

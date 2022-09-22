@@ -11,6 +11,8 @@ Returns an upside down trapezoid with given starting width and given height
 
 std::string trapezoid(int width, int height) {
     if(width-(2*height) < 0) {
+        // makes sure that for each change in height, the number of stars will always be more than 0
+        //since each iteration will remove 2 stars
         return "\nImpossible shape!";
     }
     //else { return "\nPossible size.";}
