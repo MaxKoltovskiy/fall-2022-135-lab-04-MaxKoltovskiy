@@ -37,4 +37,13 @@ int main()
     std::cout<< "trapezoid(12,7):\n";
     std::cout<< trapezoid(12,7);
     std::cout<< "\n------------------\n";
+
+    std::cout<< "checkerboard(16,11):\n";
+    std::cout<< checkerboard3x3(16,11);
+    std::cout<< "\n------------------\n";
+
+    std::cout<< "checkerboard(27,27):\n";
+    std::cout<< checkerboard3x3(27,27);
+    std::cout<< "\n------------------\n";
+
 }
